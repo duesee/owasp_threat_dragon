@@ -205,7 +205,7 @@
               },
               "position": {
                 "x": 1100,
-                "y": 80
+                "y": 79
               },
               "angle": 0,
               "id": "18eb1135-e825-4982-95f8-36e961612785",
@@ -283,14 +283,19 @@
               "target": {
                 "id": "9865cd75-2a8c-4cee-a847-054914bdd85b"
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 249,
+                  "y": 58
+                }
+              ],
               "id": "b121fa37-f6de-43c1-8b1c-b3afe2b68df0",
               "labels": [
                 {
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "imap",
+                      "text": "imap (143)",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -364,7 +369,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "LMTP Server"
+                  "text": "lmtp (24)"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -497,7 +502,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "submission",
+                      "text": "submission (587)",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -506,8 +511,9 @@
               ],
               "z": 21,
               "hasOpenThreats": false,
-              "isEncrypted": true,
+              "isEncrypted": false,
               "isPublicNetwork": true,
+              "protocol": "submission",
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
@@ -544,6 +550,87 @@
               "hasOpenThreats": false,
               "isPublicNetwork": true,
               "protocol": "smtp",
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "01bdd323-708a-4ec4-9458-499fbb7ff9f5"
+              },
+              "target": {
+                "id": "9865cd75-2a8c-4cee-a847-054914bdd85b"
+              },
+              "vertices": [
+                {
+                  "x": 246,
+                  "y": 123
+                }
+              ],
+              "id": "1d11ef21-742a-4c02-892a-8aca028e81a2",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "imaps (993)",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 23,
+              "hasOpenThreats": false,
+              "isEncrypted": true,
+              "isPublicNetwork": true,
+              "protocol": "imaps",
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "18eb1135-e825-4982-95f8-36e961612785"
+              },
+              "target": {
+                "id": "640940f9-04b8-4020-bf0f-b2ccd181fc5d"
+              },
+              "vertices": [
+                {
+                  "x": 898,
+                  "y": 359
+                }
+              ],
+              "id": "8b84e2c4-4393-41c2-abd3-5a1f3340468a",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "flow 20",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 24,
+              "hasOpenThreats": false,
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
