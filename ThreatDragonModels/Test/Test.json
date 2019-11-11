@@ -622,7 +622,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 20",
+                      "text": "lmtp",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -631,6 +631,8 @@
               ],
               "z": 24,
               "hasOpenThreats": false,
+              "isPublicNetwork": true,
+              "protocol": "lmtp",
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
@@ -639,6 +641,27 @@
                   "class": "connection hasNoOpenThreats isInScope"
                 }
               }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 923,
+                "y": 242
+              },
+              "target": {
+                "x": 949,
+                "y": 455
+              },
+              "vertices": [
+                {
+                  "x": 955,
+                  "y": 348
+                }
+              ],
+              "id": "23fffb8d-7f81-49f4-bfe6-76768e853faf",
+              "z": 25,
+              "attrs": {}
             }
           ]
         },
